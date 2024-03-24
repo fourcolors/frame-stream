@@ -1,5 +1,10 @@
-const DEFAULT_DEBUGGER_URL =
-  process.env.DEBUGGER_URL ?? "http://localhost:3010/";
+// basic idea:
+//
+// Hooks with the frame. So basically, you slide left and right to find the music and then
+// you slide left and right to find the video.
+//
+// you can then mint and char on warpcaster
+const DEFAULT_DEBUGGER_URL = process.env.DEBUGGER_URL ?? "http://localhost:3010/";
 
 export const DEFAULT_DEBUGGER_HUB_URL =
   process.env.NODE_ENV === "development"
