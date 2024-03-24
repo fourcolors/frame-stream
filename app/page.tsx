@@ -74,7 +74,7 @@ export default async function Home({ searchParams }: NextServerPageProps) {
         {/* <FrameImage src="https://framesjs.org/og.png" /> */}
         <FrameImage aspectRatio="1.91:1">
           <div tw="w-full h-full bg-slate-700 text-white justify-center items-center flex flex-col">
-          <div>Press "Get started!" to start streaming</div>
+          <div>Press Get started! to start streaming</div>
           </div>
         </FrameImage>
         <FrameButton>
